@@ -1,0 +1,87 @@
+
+body{
+	overflow: hidden;
+	margin: 0px;
+	font-family: verdana;
+}
+#fondo {
+	position: fixed;
+	display: inline;
+	overflow: hidden;
+	background: linear-gradient( #50a4dc 30%,#ffffff);
+	width: 100%;
+	height: 100%;
+}
+
+.elemento {
+	display: inline;
+	background: ;
+	position: absolute;
+}
+
+#estrellas {
+	position: absolute;
+	background-image: url(../img/nave/fondoEstrellas.jpg);
+	opacity: 0.2;
+	width: 200%;
+	height: 100%;
+}
+
+#nave {
+	z-index: 20;
+	top: 10%;
+    left: 7%;
+}
+#cuentaReg{
+    z-index: 20;
+	top: 10%;
+    left: 12%;
+    color:red;
+    font-weight: bold;
+    font-size: 5rem;
+    background: radial-gradient(yellow,gray);
+    border-radius: 50%;
+    width:6rem;
+    height: 6rem;
+    text-align: center;
+    opacity: 0.8;
+}
+#base {
+	z-index: 20;
+	background-color: orange;
+    border-radius: 10px;
+	bottom: 0px;
+	left: 150%;
+    padding: 1rem;
+    width: 15rem;
+    font-shadow: 2px 2px 4px #ffffff;
+    color: Red;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+#edificios {
+	bottom: 0px;
+	left: 50%;
+}
+
+#luna {
+    top:5%;
+    right: -20%;
+    opacity: 0.5;
+}
+
+#saturno {
+    top:10%;
+}
+
+
+
+#police {
+    z-index: 20;
+	bottom: -1px;
+	left: 10%;
+    width: 15rem;
+    display: none;
+}
